@@ -1,0 +1,32 @@
+{
+    "name": "a",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "GHBit": "github:lzty634158/ghbit#c74458c5e61280df1d825338aa010572afb00784",
+        "motor": "github:dfrobot/pxt-motor#dbd0aa1f999cc925785006df8ee6581307ec3140",
+        "ir_remote": "github:d3jd/ir#v1.0.12",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.10",
+        "tag": "v2.0.10",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9b7b5f1d10f133bc9c14ef24e1b8a67333f12c29",
+        "target": "5.0.12",
+        "pxt": "5.15.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
